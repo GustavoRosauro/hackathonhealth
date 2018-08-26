@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App11"
+             x:Class="App11.MainPage">
+
+    <StackLayout>
+        <Image Source="icone.png" HorizontalOptions="StartAndExpand" ></Image>
+        <Button Text="Emergência" VerticalOptions="CenterAndExpand" BackgroundColor="Red" Clicked="Button_Clicked"></Button>
+        <Button Text="Uurgência" VerticalOptions="CenterAndExpand" BackgroundColor="Yellow" Clicked="Button_Clicked_1"></Button>
+        <ListView x:Name="listaProdutos">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell  Text="{Binding Mensagem}" Detail="{Binding Status}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>

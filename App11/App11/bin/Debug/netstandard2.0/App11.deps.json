@@ -1,0 +1,199 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "c662d2ddc6b43e131f79dd3a658eb1ea72d07f99"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "App11/1.0.0": {
+        "dependencies": {
+          "FrazzApps.Xamarin.Forms.Geolocator": "1.1.1-alpha",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2",
+          "Xam.Plugin.ExternalMaps": "4.0.1",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xamarin.Essentials": "0.10.0-preview",
+          "Xamarin.Forms": "3.2.0.729530-pre2",
+          "Xamarin.Forms.Maps": "3.2.0.729530-pre2"
+        },
+        "runtime": {
+          "App11.dll": {}
+        }
+      },
+      "FrazzApps.Xamarin.Forms.Geolocator/1.1.1-alpha": {
+        "runtime": {
+          "lib/portable-net45+wp8+win8/FrazzApps.Xamarin.Geolocator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xam.Plugin.ExternalMaps/4.0.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.ExternalMaps.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.ExternalMaps.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Geolocator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Essentials/0.10.0-preview": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/3.2.0.729530-pre2": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/3.2.0.729530-pre2": {
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.729530-pre2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrazzApps.Xamarin.Forms.Geolocator/1.1.1-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qwUcuEnK5HL+B+uKwC23Zjc8WWjzVcFknCTwplVecfwyf9+JWc+OrDpVAyF3SFtzDyYAkjX6GNaFSFyyEc6ktw==",
+      "path": "frazzapps.xamarin.forms.geolocator/1.1.1-alpha",
+      "hashPath": "frazzapps.xamarin.forms.geolocator.1.1.1-alpha.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xam.Plugin.ExternalMaps/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FeZWVG56+x+N9/CuYVK44/TgG2TSDmmtz13u3+iC1RdUtb2TYvcxULpQ+YpCW3ICGGxa05uoMvRMk2M2Jd4e7w==",
+      "path": "xam.plugin.externalmaps/4.0.1",
+      "hashPath": "xam.plugin.externalmaps.4.0.1.nupkg.sha512"
+    },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
+    },
+    "Xamarin.Essentials/0.10.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA8oAHIHf4ymPPQoi7sLKF0704fFgwoqmQDy1G1kOxXrEZF0W5XpTXS2y2h4/RC/7bn0DzhTS6wiC90Om4YSHA==",
+      "path": "xamarin.essentials/0.10.0-preview",
+      "hashPath": "xamarin.essentials.0.10.0-preview.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.2.0.729530-pre2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qSP/FC32sxFzq6e6/dQ8s35fvryxwoziSMvzy05ouBQTiETs2hTwvb7tn8UQmF5fRAcoT8jNQQdgMsgCjCedMw==",
+      "path": "xamarin.forms/3.2.0.729530-pre2",
+      "hashPath": "xamarin.forms.3.2.0.729530-pre2.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/3.2.0.729530-pre2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jrcK7G1UsN7PCmjOgC5cWeI6E4WJBoUIl10prZxKWju3G1n8iNDpUUXZlD4mJI7h/ieLtYMSXkKl+RJvJ4jRQ==",
+      "path": "xamarin.forms.maps/3.2.0.729530-pre2",
+      "hashPath": "xamarin.forms.maps.3.2.0.729530-pre2.nupkg.sha512"
+    }
+  }
+}
